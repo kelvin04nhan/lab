@@ -6,7 +6,7 @@ NOTIFICATION = dict(stop = "STOP",
                     pause = 'PAUSE',
                     invalid = 'Invalid command')   
 
-
+# MVC model
 class State:
     def __init__(self):
         self.__current_mode = MODE['auto']
